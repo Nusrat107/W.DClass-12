@@ -5,6 +5,7 @@
 }
 
 .hero{
+    font-size: 25px;
    background-image: url(image/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,4 +56,184 @@
     text-decoration: none;
     display: block;
     color: #F85606;
+}
+
+/*Device Responsive*/
+@media screen and (max-width:800px){
+    .hero{
+        height: 260px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .hero{
+        height: 250px;
+    }
+}
+@media screen and (max-width:675px){
+    .hero{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .hero{
+        height: 210px;
+    }
+}
+@media screen and (max-width:630px){
+    .hero{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .hero{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:510px){
+    .hero{
+        height: 180px;
+    }
+}
+@media screen and (max-width:480px){
+    .hero{
+        height: 170px;
+    }
+}
+@media screen and (max-width:450px){
+    .hero{
+        height: 160px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:430px){
+    .hero{
+        height: 150px;
+    }
+}
+@media screen and (max-width:400px){
+    .hero{
+        height: 140px;
+    }
+}
+@media screen and (max-width:365px){
+    .hero{
+        height: 130px;
+    }
+}
+@media screen and (max-width:350px){
+    .hero{
+        height: 120px;
+    }
+}
+@media screen and (max-width:325px){
+    .hero{
+        height: 110px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1025px){
+    .project-item{
+       width: 48%;
+    }
+}
+
+@media screen and (max-width:995px){
+    .project-item{
+       width:48%;
+    }
+}
+@media screen and (max-width:985px){
+    .project-item{
+       width: 48%;
+    }
+}
+
+@media screen and (max-width:966px){
+    .project-item{
+       width: 48%;
+    }
+}
+
+@media screen and (max-width:955px){
+    .project-item{
+       width: 48%;
+    }
+}
+
+@media screen and (max-width:940px){
+    .project-item{
+       width: 98%;
+    }
+}
+
+@media screen and (max-width:690px){
+    .project-item{
+       width: 98%;
+    }
+}
+
+@media screen and (max-width:525px){
+    .project-item{
+       width: 98%;
+    }
+}
+
+@media screen and (max-width:470px){
+    .project-item{
+       width: 98%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .project-item{
+       width: 98%;
+    }
+}
+
+@media screen and (max-width:355px){
+    .project-item{
+       width: 97%;
+    }
+}
+
+@media screen and (max-width:300px){
+    .project-item{
+       width: 98%;
+    }
+}
+
+@media screen and (max-width:985px){
+    .footer-item{
+       width: 32%;
+    }
+}
+
+@media screen and (max-width:685px){
+    .footer-item{
+       width: 32%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .footer-item{
+       width: 32%;
+    }
+}
+
+@media screen and (max-width:385px){
+    .footer-item{
+       width: 32.5%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .footer-item{
+       width: 33%;
+    }
 }
